@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+        CSTU PASSPORT
+        </title>
+            <style>
+            body {
+                margin:0;
+                background-color : white;
+            }
+             /*title above header*/
+            .title {
+            border: 1px solid #ff89bf;
+            background-color:  #ff89bf; 
+             }
+             .title h2{
+                text-align: center;
+                font-family: cursive ;
+                color: white;
+             }
+             /*header*/
+             .header{
+                border : 2px solid #ff89bf;
+                padding: 10px;
+                line-height: 0.5px;
+                background-color: white;
+             }
+             .header h1{
+                font-family: sans-serif;
+                font-size: 50px;
+                color: #fec3df;
+                text-align: center;
+                text-shadow: -1px 0 #ff89bf, 0 1px #ff89bf,
+                1px 0 #ff89bf, 0 -1px #ff89bf;
+                letter-spacing: 10px;
+             }
+             .header p{
+                color:#a0f3ed;
+                text-align: center;
+                letter-spacing: 5px;
+             }
+             /*Nav link*/
+            .menu {
+                float: left;
+                padding: 15px;
+                margin-top: 10px;
+            }
+            .menu ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            .menu li {
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 7px;
+            background-color: #ff89bf;
+            color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            }
+            .menu a {
+             color: #ffffff;
+             text-decoration: none;
+            }
+            .menu li:hover {
+             background-color: #fec2de;
+            }
+            .row::after {
+            content: "";
+             clear: both;
+             display: block;
+            }
+            [class*="col-"] {
+            float: left;
+            padding: 15px;
+            }
+            .rightcol{
+                margin-top: 21px;
+                background-color: #ff89bf;
+                position: relative;
+                width: 500px;
+                height: 500px;
+            }
+            .rightcol p{
+                position: absolute;
+                padding-left: 25px;
+                font-size: 40px;
+                color: beige;
+            }
+            .rightcol h6{
+                position: absolute;
+                padding-left: 25px;
+                font-size: 40px;
+                color: beige;
+                padding-top: 0px;
+            }
+            .rightcol h5{
+                position: absolute;
+                padding-left: 25px;
+                font-size: 40px;
+                color: beige;
+                padding-top: 0px;
+            }
+            .rightcol h4{
+                position: absolute;
+                padding-top: 70px;
+                padding-left: 25px;
+                font-size: 40px;
+                color: beige;
+            }
+            .rightcol h1{
+                position: absolute;
+                padding-top: 150px;
+                padding-left: 25px;
+                font-size: 40px;
+                color: beige;
+            }
+            .img1{
+                background-image: src="C:\Users\My Documents\Pictures\Screenshots\nini.jpg";
+                position: absolute;
+                background-size: contain;
+                padding-left: 150px;
+                padding-top: 25px;
+            }
+            .back1{
+                position: absolute;
+                background-image: src="C:\Users\My Documents\Pictures\Screenshots\niback.jpg";
+                background-size: contain;
+                padding-left: 175px;
+                padding-top: 10px;
+                /*top: 50px;
+                left: 50px;*/
+            }
+            .img2{
+                background-image: src="C:\Users\My Documents\Pictures\Screenshots\nina.jpg";
+                position: absolute;
+                background-size: contain;
+                padding-left: 20px;
+                padding-top: 325px;
+            }
+            .back2{
+                position: absolute;
+                background-image: src="C:\Users\My Documents\Pictures\Screenshots\naback.jpg";
+                background-size: contain;
+                padding-left: 45px;
+                padding-top: 310px;
+
+            }
+            .col-5 p{
+                line-height: 0.5px;
+                color: #ff89bf;
+            }
+            .col-5 h2{
+                color: #ff89bf;
+            }
+            .col-5 video{
+                margin-top: 10px;
+            }
+            .footer{
+                margin-top: 600px;
+                background-color: #ff89bf;
+                height: 40px;
+                width: 100%;
+                text-align: center;
+                padding-top: 5px;
+                color: white;
+            }
+
+            /* For desktop: */
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+        @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+        width: 100%;
+        }
+        [class*="footer"] {
+        margin-top: 1350px;
+        }
+        }
+        @media only screen and (min-width: 600px) {
+        /* For tablets: */
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+        
+        }
+         </style>
+    </head>
+    <body>
+        <div class="title">
+            <h2>my cstu passport</h2>
+        </div>
+        
+        <div class="header">
+            <h1>PATTAYAWAT</h1>
+            <p>-Pattayawat Poolsawatt-</p>
+        </div>
+
+            <div class="col-3 col-s-3 menu">
+            <ul>
+            <li><a href="https://pattayawat.github.io/My-CSTU-Passport-6609612111/html/MyAdvisor.html">my advisor</a></li>
+            <li><a href="https://pattayawat.github.io/My-CSTU-Passport-6609612111/html/Myfirstmeet.html">first meet</a></li>
+            <li><a href="https://pattayawat.github.io/My-CSTU-Passport-6609612111/html/Myorientalday.html">orientation</a></li>
+            </ul>
+            </div>
+            <div class="col-5 col-s-5">
+                <h2>About me</h2>
+                <p>My name is Pattaywat Poolsawatt but you can call me Neon.</p>
+                <p>I am 18 years old.I was born on 25 April 2005.</p>
+                <p>I am studying in Faculty of Science and Technology</p>
+                <p> My major is Computer science.</p>
+                <video src="https://pattayawat.github.io/My-CSTU-Passport-6609612111/video/video100.mp4" height="350px" width="450px" controls> video is not supported </video>
+            </div>
+
+            <div class="col-3 col-s-3 right rightcol">
+                <p>Neon</p>
+                <h6>Neon</h6>
+                <h5>Neon</h5>
+                <h4>Neon</h4>
+                <h1>Neon</h1>
+                <div class="back1">
+                        <img src="https://pattayawat.github.io/My-CSTU-Passport-6609612111/image/niback.jpg" height="250px" width="200px">
+                </div>
+                <div class="img1">
+                    <img src="https://pattayawat.github.io/My-CSTU-Passport-6609612111/image/nini.jpg" height="250px" width="200px" >
+                </div>
+                <div class="back2">
+                    <img src="https://pattayawat.github.io/My-CSTU-Passport-6609612111/image/naback.jpg" height="150px" width="250px">
+            </div>
+                <div class="img2">
+                <img src="https://pattayawat.github.io/My-CSTU-Passport-6609612111/image/nina.jpg" height="150px" width="250px">
+                </div>
+            </div>
+            <div class="footer">
+                <p>Thank you</p>
+            </div>
+    </body>
+</HTML>
